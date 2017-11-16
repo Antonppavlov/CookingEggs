@@ -23,22 +23,22 @@ class ViewController: UIViewController {
     
     @IBAction func softBoildeBtnPressed(_ sender: Any) {
     }
-    
+
     @IBAction func inAPounchBtnPressed(_ sender: Any) {
     }
-    
+
     @IBAction func hardBoiledBtnPressed(_ sender: Any) {
     }
-    
+
     @IBAction func startBtnPressed(_ sender: Any) {
     }
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.softBoiledBtn.isHighlighted = true
-        self.inAPounchBtn.isHighlighted = true
-        self.selectedTipe[2] = true
+     //   self.softBoiledBtn.isHighlighted = true
+      //  self.inAPounchBtn.isHighlighted = true
+      //  self.selectedTipe[2] = true
         
     }
 

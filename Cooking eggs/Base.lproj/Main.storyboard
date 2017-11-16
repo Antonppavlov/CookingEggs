@@ -34,7 +34,7 @@
                                 </constraints>
                                 <state key="normal" image="egg"/>
                                 <connections>
-                                    <action selector="softBoildeBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Irg-vS-1f2"/>
+                                    <action selector="softBoildeBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0o0-8H-yJf"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S65-Uj-F6Y">
@@ -45,7 +45,7 @@
                                 </constraints>
                                 <state key="normal" image="egg"/>
                                 <connections>
-                                    <action selector="inAPounchBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yRu-IE-cib"/>
+                                    <action selector="inAPounchBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6UY-7D-f48"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gHO-we-G6z">
@@ -56,7 +56,7 @@
                                 </constraints>
                                 <state key="normal" image="egg"/>
                                 <connections>
-                                    <action selector="hardBoiledBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="liv-M4-Itw"/>
+                                    <action selector="hardBoiledBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lhv-UG-8i2"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Soft-boiled" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PKu-Yc-B9X">
@@ -104,7 +104,7 @@
                                 </constraints>
                                 <state key="normal" image="start"/>
                                 <connections>
-                                    <action selector="startBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4O8-0v-K7p"/>
+                                    <action selector="startBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jiN-9k-WpM"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -131,15 +131,11 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="hardBoiledBtn" destination="gHO-we-G6z" id="PG6-Mp-QM4"/>
-                        <outlet property="hardBoiledBtnPressed" destination="gHO-we-G6z" id="sPg-8c-bJC"/>
-                        <outlet property="inAPonchBtn" destination="S65-Uj-F6Y" id="eeT-Kx-HJA"/>
-                        <outlet property="inAPounchBrn" destination="S65-Uj-F6Y" id="1XE-S1-evV"/>
-                        <outlet property="inAPounchBtn" destination="S65-Uj-F6Y" id="Xwi-Lu-3O1"/>
-                        <outlet property="softBoildBtn" destination="PKu-Yc-B9X" id="s5W-bK-DEn"/>
-                        <outlet property="softBoiledBtn" destination="MM8-10-fiE" id="ekv-dz-PiV"/>
-                        <outlet property="startBtn" destination="Esd-z4-Vp9" id="90Y-uQ-Pfj"/>
-                        <outlet property="timerLabel" destination="GMx-N7-D4o" id="KqF-pQ-Uts"/>
+                        <outlet property="hardBoiledBtn" destination="gHO-we-G6z" id="VGT-h3-Ljw"/>
+                        <outlet property="inAPounchBtn" destination="S65-Uj-F6Y" id="bN8-xr-lhM"/>
+                        <outlet property="softBoiledBtn" destination="MM8-10-fiE" id="1RF-K4-USm"/>
+                        <outlet property="startBtn" destination="Esd-z4-Vp9" id="nC7-TY-vbc"/>
+                        <outlet property="timerLabel" destination="GMx-N7-D4o" id="JTj-jG-Xml"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
