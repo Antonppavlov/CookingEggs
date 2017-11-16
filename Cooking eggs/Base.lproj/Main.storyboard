@@ -87,12 +87,12 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GMx-N7-D4o">
-                                <rect key="frame" x="126" y="313.5" width="123" height="60"/>
+                                <rect key="frame" x="62.5" y="303.5" width="250" height="80"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="60" id="Aar-o1-DNi"/>
-                                    <constraint firstAttribute="width" constant="123" id="Lvw-9s-xnY"/>
+                                    <constraint firstAttribute="height" constant="80" id="GgP-u5-ksc"/>
+                                    <constraint firstAttribute="width" constant="250" id="yCN-1s-1NX"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="Avenir-Black" family="Avenir" pointSize="37"/>
+                                <fontDescription key="fontDescription" name="Avenir-Black" family="Avenir" pointSize="43"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
