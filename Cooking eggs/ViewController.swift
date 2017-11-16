@@ -9,10 +9,37 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    let softBoiledTime = 240
+    let inAPounchTime = 360
+    let hardBoiledTime = 450
+    var selectedTipe = Array(repeating:false, count:3)
 
+    @IBOutlet weak var softBoiledBtn: UIButton!
+    @IBOutlet weak var inAPounchBtn: UIButton!
+    @IBOutlet weak var hardBoiledBtn: UIButton!
+    @IBOutlet weak var startBtn: UIButton!
+    @IBOutlet weak var timerLabel: UILabel!
+    
+    @IBAction func softBoildeBtnPressed(_ sender: Any) {
+    }
+    
+    @IBAction func inAPounchBtnPressed(_ sender: Any) {
+    }
+    
+    @IBAction func hardBoiledBtnPressed(_ sender: Any) {
+    }
+    
+    @IBAction func startBtnPressed(_ sender: Any) {
+    }
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        self.softBoiledBtn.isHighlighted = true
+        self.inAPounchBtn.isHighlighted = true
+        self.selectedTipe[2] = true
+        
     }
 
     override func didReceiveMemoryWarning() {
